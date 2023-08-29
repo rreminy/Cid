@@ -1,0 +1,13 @@
+{
+  "Author": "Azure Gem",
+  "Name": "Cid",
+  "Punchline": "Cid, the Garlond Ironworks Engineer",
+  "Description": "Ask /cid for your Content ID",
+  "InternalName": "Cid",
+  "Tags": [
+    "Cid"
+  ],
+  "CategoryTags": [
+    "utility"
+  ]
+}
