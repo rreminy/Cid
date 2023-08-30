@@ -25,10 +25,11 @@ namespace Cid
 
         public void CidCommandHandler(string name, string args)
         {
+            var cid = this.Client.LocalContentId;
             var playerName = this.Client.LocalPlayer!.Name;
             var world = this.Client.LocalPlayer.HomeWorld.GameData!.Name.ToDalamudString().TextValue;
             var dc = this.Client.LocalPlayer.HomeWorld.GameData.DataCenter!.Value!.Name.ToDalamudString().TextValue;
-            this.Chat.Print($"{this.Client.LocalContentId:X16}: {playerName} <{world}> [{dc}]");
+            this.Chat.Print($"{cid:X16}: {playerName} <{world}> [{dc}]");
         }
 
         public void Dispose()
