@@ -12,7 +12,7 @@ namespace Cid
         private ClientState Client { get; }
         private ChatGui Chat { get; }
 
-        public string Name => "Content ID Parser";
+        public string Name => "Cid";
 
         public CidPlugin(ICommandManager commands, ClientState client, ChatGui chat)
         {
